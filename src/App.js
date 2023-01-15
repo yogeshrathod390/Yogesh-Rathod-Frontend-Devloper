@@ -1,24 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
+import React, { useState } from "react";
+import MainItem from './components/MainItem';
+import SearchBar from './components/SearchBar';
 
 function App() {
+  let [serch,setSerch]=useState()
+  function serchData(data){
+    console.log(data,"form serch")
+    setSerch(data)
+  }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   <>
+   <SearchBar serch_parent={serchData}/>
+   <MainItem passData={serch}/>
+   </>
   );
 }
 
