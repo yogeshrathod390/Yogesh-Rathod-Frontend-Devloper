@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Yogesh-Rathod-Frontend-Devloper/static/css/main.cf63f8d9.css",
+    "main.js": "/Yogesh-Rathod-Frontend-Devloper/static/js/main.3aad2c39.js",
+    "static/js/787.6606bfd5.chunk.js": "/Yogesh-Rathod-Frontend-Devloper/static/js/787.6606bfd5.chunk.js",
+    "index.html": "/Yogesh-Rathod-Frontend-Devloper/index.html",
+    "main.cf63f8d9.css.map": "/Yogesh-Rathod-Frontend-Devloper/static/css/main.cf63f8d9.css.map",
+    "main.3aad2c39.js.map": "/Yogesh-Rathod-Frontend-Devloper/static/js/main.3aad2c39.js.map",
+    "787.6606bfd5.chunk.js.map": "/Yogesh-Rathod-Frontend-Devloper/static/js/787.6606bfd5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cf63f8d9.css",
+    "static/js/main.3aad2c39.js"
+  ]
+}
